@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Youtube.com Clone</title>
+  <link rel="stylesheet" href="youtube.css">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="general.css">
+  <link rel="stylesheet" href="sidebar.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="header">
+    <div class="left-section">
+      <img class="hamburger-menu" src="icons/hamburger-menu.svg" alt="">
+      <img class="youtube-logo" src="icons/youtube-logo.svg" alt="">
+    </div>
+    <div class="middle-section">
+      <input type="search" placeholder="Search" class="search-bar" name="" id="">
+      <button class="search-button">
+        <img class="search-icon" src="icons/search.svg" alt="">
+        <div class="tooltip">Search</div>
+      </button>
+      <button class="voice-search-button">
+        <img class="voice-search-icon" src="icons/voice-search-icon.svg" alt="">
+        <div class="tooltip">Search with your voice</div>
+      </button>
+    </div>
+    <div class="right-section">
+      <div class="upload-icon-container">
+        <img class="upload-icon" src="icons/upload.svg" alt="">
+        <div class="tooltip">Create</div>
+      </div>
+      <div class="apps-icon-container">
+        <img class="youtube-apps-icon" src="icons/youtube-apps.svg" alt="">
+        <div class="tooltip">YouTube apps</div>
+      </div>
+      <div class="notifications-icon-container">
+        <img class="notifications-icon" src="icons/notifications.svg" alt="">
+        <div class="notifications-count">
+          3
+        </div>
+        <div class="tooltip">Notifications</div>
+      </div>
+      <img class="current-user-picture" src="channel-pictures/my-channel.jpg" alt="">
+    </div>
+  </div>
+
+  <div class="sidebar">
+    <div class="sidebar-link">
+      <img src="icons/home.svg" alt="">
+      <div>home</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/explore.svg" alt="">
+      <div>explore</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/subscriptions.svg" alt="">
+      <div>Subscriptions</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/originals.svg" alt="">
+      <div>Originals</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/youtube-music.svg" alt="">
+      <div>YouTube Music</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/library.svg" alt="">
+      <div>Library</div>
+    </div>
+  </div>
+  
+  <div class="video-grid">
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=qIsgdOVGA04" target="_blank">
+          <img class="thumbnail" src="thumbnails/thumbnail-1.jpg" alt="">
+        </a>
+        <div class="video-time">
+          15:43
+        </div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <div class="channel-hover-cont">
+            <a href="https://www.youtube.com/c/MrBeast6000" target="_blank">
+              <img class="profile-picture" src="channel-pictures\channel-1.jpg" alt="">
+            </a>
+            <div class="channel-hover">
+              <img class="channel-hover-pic" src="channel-pictures\channel-1.jpg" alt="">
+              <div>
+                <p class="channel-hover-name">
+                  MrBeast
+                </p>
+                <p class="channel-hover-subs">
+                  98M subscribers
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            <a class="link-styles" href="https://www.youtube.com/watch?v=qIsgdOVGA04" target="_blank">
+              Last To Take Hand Off Lamborghini, Keeps It
+            </a>
+          </p>
+          <p class="video-author">
+            <a class="link-styles" href="https://www.youtube.com/c/MrBeast6000" target="_blank">
+              MrBeast
+            </a>
+          </p>
+          <p class="video-stats">
+            86M views &#183; 8 months ago
+          </p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=w6nBpjxo7Lw" target="_blank">
+          <img class="thumbnail" src="thumbnails/thumbnail-2.jpg" alt="">
+        </a>
+        <div class="video-time">
+          4:26
+        </div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <div class="channel-hover-cont">
+            <a target="_black" href="https://www.youtube.com/c/MRCHyouregonnaloveme">
+              <img class="profile-picture" src="channel-pictures/channel-2.jpg" alt="">
+            </a>
+            <div class="channel-hover">
+              <img class="channel-hover-pic" src="channel-pictures\channel-2.jpg" alt="">
+              <div>
+                <p class="channel-hover-name">
+                  마치 [MRCH]
+                </p>
+                <p class="channel-hover-subs">
+                  110K subscribers
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            <a class="link-styles" href="https://www.youtube.com/watch?v=w6nBpjxo7Lw" target="_blank">
+              Justin Bieber - Love Yourself
+            </a>
+          </p>
+          <p class="video-author">
+            <a href="https://www.youtube.com/c/MRCHyouregonnaloveme" target="_blank" class="link-styles">
+              마치 [MRCH]
+            </a>
+          </p>
+          <p class="video-stats">
+            124K views &#183; 9 months ago
+          </p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=b7f64VV326g" target="_blank">
+          <img class="thumbnail" src="thumbnails/thumbnail-3.jpg" alt="">
+        </a>
+        <div class="video-time">
+          8:59
+        </div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <div class="channel-hover-cont">
+            <a href="https://www.youtube.com/c/Flexinja/featured" target="_blank">
+              <img class="profile-picture" src="channel-pictures/channel-3.jpg" alt="">
+            </a>
+            <div class="channel-hover">
+              <img class="channel-hover-pic" src="channel-pictures/channel-3.jpg" alt="">
+              <div>
+                <p class="channel-hover-name">
+                  Flexinja 
+                </p>
+                <p class="channel-hover-subs">
+                  31.3M subscribers
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            <a class="link-styles" href="https://www.youtube.com/watch?v=b7f64VV326g" target="_blank">
+              Why I'm the BEST Omen player on Breeze...
+            </a>
+          </p>
+          <p class="video-author">
+            <a class="link-styles" href="https://www.youtube.com/c/Flexinja/featured" target="_blank">
+              Flexinja 
+            </a>
+          </p>
+          <p class="video-stats">
+            64K views &#183; 1 month ago
+          </p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=1rP7ziPDDt0" target="_blank">
+          <img class="thumbnail" src="thumbnails/thumbnail-4.jpg" alt="">
+        </a>
+        <div class="video-time">
+          3:34
+        </div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <div class="channel-hover-cont">
+            <a href="https://www.youtube.com/c/SHAUNthehuman/featured" target="_blank">
+              <img class="profile-picture" src="channel-pictures/channel-4.jpg" alt="">
+            </a>
+            <div class="channel-hover">
+              <img class="channel-hover-pic" src="channel-pictures/channel-4.jpg" alt="">
+              <div>
+                <p class="channel-hover-name">
+                  Shaun
+                </p>
+                <p class="channel-hover-subs">
+                  393K subscribers
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            <a class="link-styles" href="https://www.youtube.com/watch?v=1rP7ziPDDt0" target="_blank">
+              Way Back Home
+            </a>
+          </p>
+          <p class="video-author">
+            <a class="link-styles" href="https://www.youtube.com/c/SHAUNthehuman/featured" target="_blank">
+              Shaun
+            </a>
+          </p>
+          <p class="video-stats">
+            47M views &#183; 4 years ago
+          </p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=E9IHz0Qzro0" target="_blank">
+          <img class="thumbnail" src="thumbnails/thumbnail-5.jpg" alt="">
+        </a>
+        <div class="video-time">
+          10:01
+        </div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <div class="channel-hover-cont">
+            <a href="https://www.youtube.com/c/TorvestaRS" target="_blank">
+              <img class="profile-picture" src="channel-pictures/channel-5.jpg" alt="">
+            </a>
+            <div class="channel-hover">
+              <img class="channel-hover-pic" src="channel-pictures/channel-5.jpg" alt="">
+              <div>
+                <p class="channel-hover-name">
+                  TorvestaRS 
+                </p>
+                <p class="channel-hover-subs">
+                  467K subscribers
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            <a class="link-styles" href="https://www.youtube.com/watch?v=E9IHz0Qzro0" target="_blank">
+              Trolling Runescape Streamers 2
+            </a>
+          </p>
+          <p class="video-author">
+            <a class="link-styles" href="https://www.youtube.com/c/TorvestaRS" target="_blank">
+              TorvestaRS 
+            </a>
+          </p>
+          <p class="video-stats">
+            796K views &#183; 1 year ago
+          </p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=b1rP6M6KyWQ" target="_blank">
+          <img class="thumbnail" src="thumbnails/thumbnail-6.jpg" alt="">
+        </a>
+        <div class="video-time">
+          15:22
+        </div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <div class="channel-hover-cont">
+            <a href="https://www.youtube.com/c/ChrisSean" target="_blank">
+              <img class="profile-picture" src="channel-pictures/channel-6.jpg" alt="">
+            </a>
+            <div class="channel-hover">
+              <img class="channel-hover-pic" src="channel-pictures/channel-6.jpg" alt="">
+              <div>
+                <p class="channel-hover-name">
+                  Chris Sean
+                </p>
+                <p class="channel-hover-subs">
+                  111K subscribers
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            <a class="link-styles" href="https://www.youtube.com/watch?v=b1rP6M6KyWQ" target="_blank">
+              I Interviewed My Boss | Life of a Web Developer
+            </a>
+          </p>
+          <p class="video-author">
+            <a class="link-styles" href="https://www.youtube.com/c/ChrisSean" target="_blank">
+              Chris Sean
+            </a>
+          </p>
+          <p class="video-stats">
+            41K views &#183; 11 months ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=glgmavKWg3Y" target="_blank">
+          <img class="thumbnail" src="thumbnails/thumbnail-7.jpg" alt="">
+        </a>
+        <div class="video-time">
+          11:38
+        </div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <div class="channel-hover-cont">
+            <a href="https://www.youtube.com/c/devsmak" target="_blank">
+              <img class="profile-picture" src="channel-pictures/channel-7.jpg" alt="">
+            </a>
+            <div class="channel-hover">
+              <img class="channel-hover-pic" src="channel-pictures/channel-7.jpg" alt="">
+              <div>
+                <p class="channel-hover-name">
+                  devsmak
+                </p>
+                <p class="channel-hover-subs">
+                  31.1K subscribers
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            <a class="link-styles" href="https://www.youtube.com/watch?v=glgmavKWg3Y" target="_blank">
+              Learn Web Development and Actually Get a Job
+            </a>
+          </p>
+          <p class="video-author">
+            <a class="link-styles" href="https://www.youtube.com/c/devsmak" target="_blank">
+              devsmak
+            </a>
+          </p>
+          <p class="video-stats">
+            448K views &#183; 4 months ago
+          </p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=7yaH9LcDWno" target="_blank">
+          <img class="thumbnail" src="thumbnails/thumbnail-8.jpg" alt="">
+        </a>
+        <div class="video-time">
+          24:56
+        </div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <div class="channel-hover-cont">
+            <a target="_black" href="https://www.youtube.com/c/GrahamStephan">
+              <img class="profile-picture" src="channel-pictures/channel-8.jpg" alt="">
+            </a>
+            <div class="channel-hover">
+              <img class="channel-hover-pic" src="channel-pictures/channel-8.jpg" alt="">
+              <div>
+                <p class="channel-hover-name">
+                  Graham Stephan
+                </p>
+                <p class="channel-hover-subs">
+                  3.87M subscribers
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            <a class="link-styles" href="https://www.youtube.com/watch?v=7yaH9LcDWno" target="_blank">
+              Reacting to Myself: Living On $1.6 Million A Year In Los Angeles | Millennial Money
+            </a>
+          </p>
+          <p class="video-author">
+            <a href="https://www.youtube.com/c/GrahamStephan" target="_blank" class="link-styles">
+              Graham Stephan
+            </a>
+          </p>
+          <p class="video-stats">
+            379K views &#183; 2 years ago
+          </p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=r0aKcxqplU0" target="_blank">
+          <img class="thumbnail" src="thumbnails/thumbnail-9.jpg" alt="">
+        </a>
+        <div class="video-time">
+          15:11
+        </div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <div class="channel-hover-cont">
+            <a href="https://www.youtube.com/c/DorianDevelops" target="_blank">
+              <img class="profile-picture" src="channel-pictures/channel-9.jpg" alt="">
+            </a>
+            <div class="channel-hover">
+              <img class="channel-hover-pic" src="channel-pictures/channel-9.jpg" alt="">
+              <div>
+                <p class="channel-hover-name">
+                  Dorian Develops
+                </p>
+                <p class="channel-hover-subs">
+                  139K subscribers
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            <a class="link-styles" href="https://www.youtube.com/watch?v=r0aKcxqplU0" target="_blank">
+              My Junior Developer Confessions ..as a self taught programmer
+            </a>
+          </p>
+          <p class="video-author">
+            <a class="link-styles" href="https://www.youtube.com/c/DorianDevelops" target="_blank">
+              Dorian Develops
+            </a>
+          </p>
+          <p class="video-stats">
+            22K views &#183; 11 months ago
+          </p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=Rh0pYtQG5wI" target="_blank">
+          <img class="thumbnail" src="thumbnails/thumbnail-10.jpg" alt="">
+        </a>
+        <div class="video-time">
+          12:17
+        </div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <div class="channel-hover-cont">
+            <a href="https://www.youtube.com/c/minutephysics" target="_blank">
+              <img class="profile-picture" src="channel-pictures/channel-10.jpg" alt="">
+            </a>
+            <div class="channel-hover">
+              <img class="channel-hover-pic" src="channel-pictures/channel-10.jpg" alt="">
+              <div>
+                <p class="channel-hover-name">
+                  minutephysics
+                </p>
+                <p class="channel-hover-subs">
+                  5.47M subscribers
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            <a class="link-styles" href="https://www.youtube.com/watch?v=Rh0pYtQG5wI" target="_blank">
+              Lorentz Transformations | Special Relativity Ch. 3
+            </a>
+          </p>
+          <p class="video-author">
+            <a class="link-styles" href="https://www.youtube.com/c/minutephysics" target="_blank">
+              minutephysics
+            </a>
+          </p>
+          <p class="video-stats">
+            1.6M views &#183; 4 years ago
+          </p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=B9XGUpQZY38" target="_blank">
+          <img class="thumbnail" src="thumbnails/thumbnail-11.jpg" alt="">
+        </a>
+        <div class="video-time">
+          28:47
+        </div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <div class="channel-hover-cont">
+            <a href="https://www.youtube.com/c/principlesbyraydalio" target="_blank">
+              <img class="profile-picture" src="channel-pictures/channel-11.jpg" alt="">
+            </a>
+            <div class="channel-hover">
+              <img class="channel-hover-pic" src="channel-pictures/channel-11.jpg" alt="">
+              <div>
+                <p class="channel-hover-name">
+                  Principles by Ray Dalio
+                </p>
+                <p class="channel-hover-subs">
+                  1.76M subscribers
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            <a class="link-styles" href="https://www.youtube.com/watch?v=B9XGUpQZY38" target="_blank">
+              Principles For Success by Ray Dalio (In 30 Minutes)
+            </a>
+          </p>
+          <p class="video-author">
+            <a class="link-styles" href="https://www.youtube.com/c/principlesbyraydalio" target="_blank">
+              Principles by Ray Dalio
+            </a>
+          </p>
+          <p class="video-stats">
+            8.3M views &#183; 4 years ago
+          </p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=ahv3sr3De5Y" target="_blank">
+          <img class="thumbnail" src="thumbnails/thumbnail-12.jpg" alt="">
+        </a>
+        <div class="video-time">
+          3:51
+        </div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <div class="channel-hover-cont">
+            <a href="https://www.youtube.com/c/shinlimmagic" target="_blank">
+              <img class="profile-picture" src="channel-pictures/channel-12.jpg" alt="">
+            </a>
+            <div class="channel-hover">
+              <img class="channel-hover-pic" src="channel-pictures/channel-12.jpg" alt="">
+              <div>
+                <p class="channel-hover-name">
+                  Shin Lim
+                </p>
+                <p class="channel-hover-subs">
+                  1.23M subscribers
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            <a class="link-styles" href="https://www.youtube.com/watch?v=ahv3sr3De5Y" target="_blank">
+              Reporter can’t figure out what’s happening
+            </a>
+          </p>
+          <p class="video-author">
+            <a class="link-styles" href="https://www.youtube.com/c/shinlimmagic" target="_blank">
+              Shin Lim
+            </a>
+          </p>
+          <p class="video-stats">
+            1.9M views &#183; 2 years ago
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
