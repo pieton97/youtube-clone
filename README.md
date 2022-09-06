@@ -1,1 +1,11 @@
-# I made this YouTube clone using only HTML and CSS, no JavaScript. It was a good practice for grid/flexbox and page layout for me. Video content are sourced from my youtube feed.
+# Youtube Front page
+
+### features
+
+- Design using HTML and CSS without any supporting frameworks
+- CSS effects for easy user interaction
+- Efficient use of CSS grid and flexbox
+
+[Live view](https://pieton97.github.io/youtube-clone/)
+[![project picture](thumbnails/completed-project.jpg)](https://pieton97.github.io/youtube-clone/)
+
